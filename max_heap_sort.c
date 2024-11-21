@@ -15,7 +15,8 @@ int right(int index);
 int parent(int index);
 int is_max_heap(int heap[], int size);
 void max_heapify(int heap[], int size, int index);
-void print_heap(int heap[], int size) void build_max_heap(int heap[], int size);
+void print_heap(int heap[], int size);
+void build_max_heap(int heap[], int size);
 void heap_sort(int heap[], int size);
 
 int main()
